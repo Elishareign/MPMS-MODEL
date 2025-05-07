@@ -1,5 +1,1 @@
- python -m venv venv
-
- venv/scripts/activate
-
- pip install -r requirements.txt
+## open /profile_parsing directory 
