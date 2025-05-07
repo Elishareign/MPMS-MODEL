@@ -1,3 +1,3 @@
-pip install PyMuPDF
-
-python pdf_extractor.py  
+> python -m venv venv
+> venv/scripts/activate
+> pip install -r requirements.txt
