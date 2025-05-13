@@ -5,7 +5,8 @@
 
 
 2. **Create a virtual environment and activate it**
-
+  
+    ```bash
     python -m venv venv
     # Windows
     venv\Scripts\activate
