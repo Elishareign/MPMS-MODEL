@@ -108,7 +108,7 @@ with tab3:
                # Jaccard similarity = (common / union of both sets)
                 common = desired_phrases.intersection(mentor_phrases)
                 union = desired_phrases.union(mentor_phrases)
-                match_score = len(common) / len(union) if union else 0.0
+                match_score = len(common) / len(desired_phrases)
 
                 # Vector-based similarity using embeddings
                 sim_score = calculate_similarity(" ".join(desired_phrases), mentor_text)
