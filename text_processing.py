@@ -81,7 +81,7 @@ def extract_and_categorize_key_phrases(text):
     return categorized
 
 # semantic match using bert
-def get_semantic_matches(student_phrases, mentor_text, top_n=5, threshold=1.0):
+def get_semantic_matches(student_phrases, mentor_text, top_n=5, threshold=0.9):
     mentor_doc = nlp(mentor_text)
 
     # Extract clean and relevant noun phrases from mentor text
